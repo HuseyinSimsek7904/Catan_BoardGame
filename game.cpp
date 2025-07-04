@@ -1,5 +1,6 @@
 #include "Bank.h"
 #include "Map.h"
+#include "Player.h"
 #include <vector>
 #include <iostream>
 

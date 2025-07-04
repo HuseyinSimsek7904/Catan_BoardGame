@@ -17,6 +17,8 @@ private:
     std::vector<int> numbers;
     std::vector<Node> nodes;
 
+    int knightPosition;
+
 public:
     Map() {
         grid.resize(55);
@@ -123,6 +125,7 @@ public:
         for (int i = 1; i < numbers.size(); i++) {
             if (numbers[i] == 0) {
                 std::swap(tile[index], tile[i]);
+                knightPosition = i;
             }
         }
 
