@@ -1,21 +1,21 @@
-
 #ifndef NODE_H
 #define NODE_H
 
 class Node {
 private:
-    int owner;
-    int town;
-    int city;
+  int owner;
+  int town;
+  int city;
+
 public:
-    Node();
+  Node();
 
-    int getOwner();
-    int getTown();
-    int getCity();
+  int getOwner();
+  int getTown();
+  int getCity();
 
-    void setTown(int b);
-    void setCity();
+  void setTown(int b);
+  void setCity();
 };
 
-#endif 
+#endif
