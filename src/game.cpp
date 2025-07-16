@@ -1,6 +1,6 @@
-#include "Bank.h"
-#include "Map.h"
-#include "Player.h"
+#include "bank.h"
+#include "map.h"
+#include "player.h"
 #include <vector>
 #include <iostream>
 

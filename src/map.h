@@ -6,7 +6,7 @@
 #include <algorithm>
 #include <random>
 #include <chrono>
-#include "Node.h"
+#include "node.h"
 
 class Map {
 private:
